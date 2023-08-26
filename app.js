@@ -1,5 +1,5 @@
 const heading = React.createElement("h1",{ id: "heading" },"Hello World from React!");
-
+console.log(heading);
 //insert h1 tag
 // React needs to  have a root to do all dom stuff
 const root = ReactDOM.createRoot(document.getElementById("root"));
