@@ -1,0 +1,29 @@
+{
+  "name": "react-code",
+  "version": "1.0.0",
+  "description": "Learnings from Namaste React course by Akshay Saini",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavithaKalisetti5675/NamasteReactCourseApp.git"
+  },
+  "keywords": [
+    "react",
+    "namaste-react",
+    "react-learning",
+    "Akshay",
+    "Saini"
+  ],
+  "author": "Kavitha Kalisetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KavithaKalisetti5675/NamasteReactCourseApp/issues"
+  },
+  "homepage": "https://github.com/KavithaKalisetti5675/NamasteReactCourseApp#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
