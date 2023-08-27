@@ -1,0 +1,19 @@
+#Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement 
+- File watching algorithm(keeps an eye/track on whatever changes happens in code) - written in C++ 
+- caching - Faster Builds
+- Image optimisation
+- If I create a production build => It Minify the code
+- Bundling
+- Compress
+- [IMP] Parcel makes React build fast
+- Consistent Hashing  
+- Code Splitting (split your files)
+- Differential Bundling - supports older browsers
+- Diagnostic => better error suggestion
+- Good Error Handling
+- HTTPS
+- [IMP] Tree Shaking - remove unused code
+- Different bundles for dev and production
