@@ -10,32 +10,27 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const parent = React.createElement
-(
-    "div", {id: "parent"},
-    React.createElement
-    (
-        "div", {id: "child"},
-        [
-        React.createElement
-        (
-            "h1", {},
-            "I'm h1 tag"
-        ),
-        React.createElement
-        (
-            "h2", {},
-            "I'm h2 tag"
-        ),
-        ]
-    )
+//React Element
+const jsxHeading = <h1 id={"heading"}>React using JSX</h1>
+
+//React Functional Component
+//With return
+const HeadingComponentWithReturn = () => {
+    return <h1>Functional component using return </h1>
+}
+
+// Without return when single react element
+const HeadingComponent2 = () => <h1>Functional component 1</h1>;
+
+// Without return when multiple react elements wrapping them up with ()
+const HeadingComponentWithBraces = () => (
+    <div>
+        <HeadingComponentWithReturn/>
+        <h1>Functional component with braces</h1>
+    </div>
 );
 
-
-// const heading = React.createElement("h1",{ id: "heading" },"Hello World from React!");
-//insert h1 tag
-// React needs to  have a root to do all dom stuff
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //render h1 tag into the created Root
-root.render(parent);
+root.render(<HeadingComponentWithBraces/>);
