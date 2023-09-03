@@ -12,7 +12,7 @@ import ReactDOM from "react-dom";
 
 //React Element
 const jsxHeading = <h1 id={"heading"}>React using JSX</h1>
-
+const number = 105;
 //React Functional Component
 //With return
 const HeadingComponentWithReturn = () => {
@@ -25,7 +25,8 @@ const HeadingComponent2 = () => <h1>Functional component 1</h1>;
 // Without return when multiple react elements wrapping them up with ()
 const HeadingComponentWithBraces = () => (
     <div>
-        <HeadingComponentWithReturn/>
+        {jsxHeading}
+        <h1>{number*10}</h1>
         <h1>Functional component with braces</h1>
     </div>
 );
