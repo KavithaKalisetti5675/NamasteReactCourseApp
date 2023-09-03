@@ -10,23 +10,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//React Element
-const jsxHeading = <h1 id={"heading"}>React using JSX</h1>
-const number = 105;
 //React Functional Component
 //With return
-const HeadingComponentWithReturn = () => {
-    return <h1>Functional component using return </h1>
+const Title = () => {
+    return <h1>React Course</h1>
 }
-
-// Without return when single react element
-const HeadingComponent2 = () => <h1>Functional component 1</h1>;
 
 // Without return when multiple react elements wrapping them up with ()
 const HeadingComponentWithBraces = () => (
     <div>
-        {jsxHeading}
-        <h1>{number*10}</h1>
+        <Title/>
+        <Title></Title>
+        {Title()}
         <h1>Functional component with braces</h1>
     </div>
 );
