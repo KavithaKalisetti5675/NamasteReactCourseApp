@@ -1,0 +1,56 @@
+/* Select all CSS */
+
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.logo{
+    padding-left: 10px;
+    width: 100px;
+}
+
+.nav-items{
+    padding: 0 10px 0;
+    width: auto;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 40px 10px 0 0;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+/* Body CSS */
+.res-container{
+display:flex;
+flex-wrap:wrap;
+}
+
+.res-card{
+width: 200px;
+padding: 5px;
+margin:5px;
+}
+
+.res-card:hover {
+border: 1px solid black;
+cursor: pointer;
+}
+.search {
+padding: 10px
+}
+
+.res-img{
+width:100%;
+}
